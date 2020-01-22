@@ -21,6 +21,7 @@ When we need to remember something we have to repeat it many times. This program
 pyqt5의 경우 버전이 다르면 제대로 작동하지 않는 경우가 있습니다. 
 가상환경에서 작동하도록 커맨드를 남기겠습니다. 
 일단 Anaconda Prompt를 킵니다.
+
 ~~~
 conda create -n StudyHelper python=3.7
 activate StudyHelper
@@ -29,7 +30,8 @@ py main.py
 ~~~
 - - -
 ## Program overview
-<img src="./pictures/Main_Picture.png" width="400px" height="300px" title="Main_Windows" alt="Main_Windows"></img><br/>
+
+<a href="#"><img src="./pictures/Main_Picture.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
 
 - - -
 ## Structure of the program
