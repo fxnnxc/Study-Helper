@@ -19,7 +19,8 @@ When we need to remember something we have to repeat it many times. This program
 * pyqt5 version ==  **5.11.3**
 
 pyqt5의 경우 버전이 다르면 제대로 작동하지 않는 경우가 있습니다. 
-가상환경에서 작동하도록 커맨드를 남기겠습니다. 
+가상환경에서 작동하도록 커맨드를 남기겠습니다.
+
 일단 Anaconda Prompt를 킵니다.
 
 ~~~
