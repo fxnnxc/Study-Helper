@@ -12,9 +12,24 @@ When we need to remember something we have to repeat it many times. This program
 2. 프로그래밍 언어 : 파이썬
 3. 작업환경 : PYQT5 + Pycharm 
 
+- - - 
+## How to Install
+
+* Python version == **3.7**
+* pyqt5 version ==  **5.11.3**
+
+pyqt5의 경우 버전이 다르면 제대로 작동하지 않는 경우가 있습니다. 
+가상환경에서 작동하도록 커맨드를 남기겠습니다. 
+일단 Anaconda Prompt를 킵니다.
+~~~
+conda create -n StudyHelper python=3.7
+activate StudyHelper
+pip install pyqt5==5.11.3
+py main.py 
+~~~
 - - -
 ## Program overview
-<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="./pictures/Main_Picture.png" width="400px" height="300px" title="Main_Windows" alt="Main_Windows"></img><br/>
 
 - - -
 ## Structure of the program
