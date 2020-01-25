@@ -7,16 +7,16 @@ class ProblemGenerator():
 
     """
     def __init__(self):
-        self.readfile()
+        self._lines = []
         self._file = None
-        self._lines = None
+        self.readfile()
 
     def readfile(self):
         try:
-            W = open(self._file, 'r')
+            W = open("../data/"+self._file, 'r')
         except:
-            self._file = "test.txt"
-            W = open("test.txt",'r')
+            self._file = "TEST.txt"
+            W = open("../data/TEST.txt",'r')
 
         self._lines = W.readlines()
         W.close()
@@ -52,4 +52,5 @@ class ProblemGenerator():
             yield A
 
     def text_to_list(self):
-        return self.L.copy()
+        print(self._lines)
+        return self._lines
