@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from Hanja_load import *
+from problem_generate import *
 import random
 import time
 
@@ -147,7 +147,7 @@ class HideDialog(object):
         self.btn_grp.buttonClicked[int].connect(self.clicked_Button)
         for button in self.btn_grp.buttons():
             button.setStyleSheet("background-color: white")
-            button.setStyleSheet("QPushButton { text-align: left; }")
+
 
         self.pushButton.setStyleSheet("background-color: yellow")
         self.pushButton_2.setStyleSheet("background-color: green")

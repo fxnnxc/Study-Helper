@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from Hanja_load import *
+from problem_generate import *
 import time
 import random
 
@@ -87,7 +87,7 @@ class ChoiceDialog(object):
         self.clicked = 0
         self.prob = [1,2,3,4,5]
         # HANJA
-        self.make_Hanjafile()
+        self.make_file()
 
         self.retranslateUi(Dialog)
         self.do_problems()
@@ -119,7 +119,7 @@ class ChoiceDialog(object):
 
 
 
-    def make_Hanjafile(self):
+    def make_file(self):
         self.problems = []
         self.problems = self.loader.text_to_list().copy()
         self.mychoice = " "
@@ -129,10 +129,10 @@ class ChoiceDialog(object):
             font.setFamily("Adobe Arabic")
             font.setPointSize(30)
             self.label.setFont(font)
-            font.setPointSize(10)
+            font.setPointSize(20)
             for button in self.btn_grp.buttons():
                 button.setFont(font)
-                button.setStyleSheet("background-color: white; text-align: left;")
+                button.setStyleSheet("background-color: white;")
             for  i,j in enumerate(self.problems):
                 self.problems[i] =j[:4]+j[9:]
 
@@ -156,12 +156,12 @@ class ChoiceDialog(object):
                     self.right +=1
                     self.loader.remove(self.problems, button.text())
             if button.text() != self.mychoice[self.mychoice.find(":")+1:].rstrip():
-                button.setStyleSheet("background-color: red; text-align: left;")
+                button.setStyleSheet("background-color: red; ")
             self.pushButton.repaint()
         time.sleep(2)
 
         self.do_problems()
         for button in self.btn_grp.buttons():
-            button.setStyleSheet("background-color: white; text-align: left;")
+            button.setStyleSheet("background-color: white; ")
         self.progressBar.setProperty("value", (self.right)/self.Problem_len*100)
         self.progressBar.repaint()

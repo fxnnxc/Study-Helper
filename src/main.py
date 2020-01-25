@@ -7,7 +7,6 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 from type1_choice import *
 from type2_hide import *
 from problem_generate import *
@@ -83,8 +82,8 @@ class Ui_MainWindow(object):
         self.MainLabel.setObjectName("self.MainLabel")
 
         # Connect Buttons
-        self.Choice_Btn.clicked.connect(self.Hanja_clicked)
-        self.Hide_Btn.clicked.connect(self.Multi_clicked)
+        self.Choice_Btn.clicked.connect(self.ChooseDialog_clicked)
+        self.Hide_Btn.clicked.connect(self.HideDialog_clicked)
         self.InputButton.clicked.connect(self.input_button_clicked)
 
 
@@ -97,14 +96,14 @@ class Ui_MainWindow(object):
 
 
 
-    def Hanja_clicked(self):
+    def ChooseDialog_clicked(self):
         self.ui = ChoiceDialog()
         self.ChoiceDialog = QtWidgets.QDialog()
         self.ui.setupUi(self.ChoiceDialog, self.loader)
         self.ChoiceDialog.show()
 
 
-    def Multi_clicked(self):
+    def HideDialog_clicked(self):
         self.HideDialog = QtWidgets.QDialog()
         self.ui2 = HideDialog()
         self.ui2.setupUi(self.HideDialog, self.loader)
