@@ -36,16 +36,13 @@ py main.py
 |:--:| 
 | *Main Window* |
 
+| <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>  |  <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |  <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |
+|:---:|:---:|:---:|
+| Start Choose type | When you choose  | Progress Bar |
 
-
-|<a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>| <a href="#"><img src="./pictures/ChooseDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>|<a href="#"><img src="./pictures/ChooseDialog3.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>|
-
-|--|--|--|
-| *Main Window* | B|C|
-
-<a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
-<a href="#"><img src="./pictures/HideDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
-<a href="#"><img src="./pictures/HideDialog3.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
+| <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>  |  <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |  <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |
+|:---:|:---:|:---:|
+| Start Hide type  | When you choose  | See Button |
 
 - - -
 ## Structure of the program
