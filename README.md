@@ -32,9 +32,9 @@ py main.py
 - - -
 ## Program overview
 
-<a href="#"><img src="./pictures/Main_Picture.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
-{% include image.html url="./pictures/Main_Picture.png" description="My cat, Robert Downey Jr." %}
-
+|<a href="#"><img src="./pictures/Main_Picture.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>| 
+|:--:| 
+| *Space* |
 
 <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
 <a href="#"><img src="./pictures/ChooseDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
