@@ -32,14 +32,17 @@ py main.py
 - - -
 ## Program overview
 
+#### Main Window
 |<a href="#"><img src="./pictures/Main_Picture.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>| 
 |:--:| 
 | *Main Window* |
 
+#### Choose Type
 | <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>  |  <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |  <a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |
 |:---:|:---:|:---:|
 | Start Choose type | When you choose  | Progress Bar |
 
+#### Hide Type
 | <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>  |  <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |  <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a> |
 |:---:|:---:|:---:|
 | Start Hide type  | When you choose  | See Button |
