@@ -34,11 +34,14 @@ py main.py
 
 |<a href="#"><img src="./pictures/Main_Picture.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>| 
 |:--:| 
-| *Space* |
+| *Main Window* |
 
-<a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
-<a href="#"><img src="./pictures/ChooseDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
-<a href="#"><img src="./pictures/ChooseDialog3.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
+|<a href="#"><img src="./pictures/ChooseDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>| <a href="#"><img src="./pictures/ChooseDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
+|<a href="#"><img src="./pictures/ChooseDialog3.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
+|
+
+|:--:|:--:|:--:|
+| *Main Window* | B|C|
 
 <a href="#"><img src="./pictures/HideDialog1.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
 <a href="#"><img src="./pictures/HideDialog2.png" width="250px" height="200px" title ="Main Window" alt="hello!" /></a>
